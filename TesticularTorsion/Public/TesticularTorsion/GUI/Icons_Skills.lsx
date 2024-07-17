@@ -1,0 +1,35 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<save>
+    <version major="4" minor="0" revision="9" build="329"/>
+    <region id="IconUVList"> 
+        <node id="root">
+            <children>
+                <node id="IconUV">
+                    <attribute id="MapKey" type="FixedString" value="Spell_Target_Torsion"/> 
+                    <attribute id="U1" type="float" value="0.0"/> 
+                    <attribute id="U2" type="float" value="0.03125"/> 
+                    <attribute id="V1" type="float" value="0.0"/> 
+                    <attribute id="V2" type="float" value="0.03125"/> 
+                </node>
+			</children>
+        </node>
+    </region>
+	<region id="TextureAtlasInfo">
+		<node id="root">
+			<children>
+                <node id="TextureAtlasIconSize">
+                    <attribute id="Height" type="int32" value="64"/>
+                    <attribute id="Width" type="int32" value="64"/>
+                </node>
+                <node id="TextureAtlasPath">
+                    <attribute id="Path" type="string" value="Assets/Textures/Icons/Icons_TesticularTorsion_Spells.dds"/>
+                    <attribute id="UUID" type="FixedString" value="1ed0e8e2-8798-4b16-94ed-74befe42df45"/>
+                </node>
+                <node id="TextureAtlasTextureSize">
+                    <attribute id="Height" type="int32" value="2048"/>
+                    <attribute id="Width" type="int32" value="2048"/>
+                </node>
+            </children>
+        </node>
+    </region>				  				
+</save>

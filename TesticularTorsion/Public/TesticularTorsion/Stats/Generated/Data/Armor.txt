@@ -1,0 +1,8 @@
+new entry "TT_Ring_Magic_Torsion"
+type "Armor"
+using "_Ring"
+data "RootTemplate" "ef2de793-c53a-4144-82ce-36a88e7809e1"
+data "ObjectCategory" "Jewelry"
+data "ValueOverride" "180"
+data "Rarity" "Rare"
+data "Boosts" "UnlockSpell(TT_Spell_Target_Torsion_Minor)"

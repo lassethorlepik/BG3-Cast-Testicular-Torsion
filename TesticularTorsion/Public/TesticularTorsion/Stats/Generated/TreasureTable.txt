@@ -1,0 +1,19 @@
+new treasuretable "DEN_Entrance_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_TT_Ring_Magic_Torsion",1,0,0,0,0,0,0,0
+
+new treasuretable "UND_SocietyOfBrilliance_Mindflayer"
+CanMerge 1
+new subtable "1,1"
+object category "I_TT_Ring_Magic_Torsion",1,0,0,0,0,0,0,0
+
+new treasuretable "HAV_Thiefling_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_TT_Ring_Magic_Torsion",1,0,0,0,0,0,0,0
+
+new treasuretable "HAV_HarperQuarterMaster_Magic_Trade"
+CanMerge 1
+new subtable "1,1"
+object category "I_TT_Ring_Magic_Torsion",1,0,0,0,0,0,0,0
