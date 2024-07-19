@@ -41,7 +41,7 @@ local function AttemptTorsion(target, caster, torisonType)
             Osi.SetVarInteger(target,"TorisonCount", total) -- Add +1 to enable testicle limit, only two hits do damage.
         end
     else
-        Osi.ShowNotification(caster, "Both testicles are already destroyed, 0 damage.")
+        Osi.ShowNotification(caster, Osi.ResolveTranslatedString("h47786527gbe5cg4f59g82bag95f0afbb2a4a")) -- Testicles destroyed
     end
 end
 
@@ -52,7 +52,7 @@ Ext.Osiris.RegisterListener("UsingSpellOnTarget", 6, "before", function (caster,
             if Osi.GetGender(target, 1) == "Male" then
                 Osi.SetVarString(target, "TorisonType", spell)
             else
-                Osi.ShowNotification(caster, "Target had no testicles, 0 damage.")
+                Osi.ShowNotification(caster, Osi.ResolveTranslatedString("ha393ecb3gfcf7g4ebeg90e5g3fecd8962f55")) -- No testicles
             end
             break
         end
